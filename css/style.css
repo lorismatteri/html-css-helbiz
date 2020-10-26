@@ -31,6 +31,10 @@ body {
   padding-left: 20px;
 }
 
+.pt_50 {
+  padding-top: 50px;
+}
+
 .text_center {
   text-align: center;
 }
@@ -265,6 +269,35 @@ a {
 #site_footer {
   background: black;
   color: white;
+  font-size: 1.75em;
+  padding: 60px 0;
+}
+
+#site_footer h2 {
+  letter-spacing: 3px;
+}
+
+.list_none {
+  list-style: none;
+}
+
+#site_footer li {
+  padding: 10px 0;
+}
+
+#site_footer li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+#social li a {
+  color: white;
+}
+
+.white a {
+  color: white;
+  font-size: 0.75em;
 }
 
 .apps {
@@ -274,4 +307,9 @@ a {
 .apps a {
   width: 150px;
   display: inline-block;
+}
+
+.apps img {
+  border: 1px solid white;
+  border-radius: 10px;
 }
