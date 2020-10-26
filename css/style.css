@@ -3,6 +3,14 @@ body {
 }
 
 /* UTILITY */
+.relative {
+  position: relative;
+}
+
+.h_500 {
+  height: 500px;
+}
+
 .mr_20 {
   margin-right: 20px;
 }
@@ -25,6 +33,10 @@ body {
 
 .text_center {
   text-align: center;
+}
+
+.bg_blue {
+  background: #344453;
 }
 /* SEZIONE HEADER */
 header {
@@ -158,7 +170,70 @@ a {
   margin-top: 400px;
 }
 
+#smart_mobility {
+  margin-top: 350px;
+}
 
+#smart_mobility .bg_image {
+  background-image: url('../img/scooter.jpg');
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+#smart_mobility .img_text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#smart_mobility h2 {
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+
+#smart_mobility p {
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+#smart_mobility a {
+  color: white;
+}
+
+.widget {
+  position: relative;
+  height: 800px;
+  color: white;
+  padding-top: 80px;
+}
+
+.widget img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#smart_mobility .widget h2 {
+  width: 65%;
+  margin: auto;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#smart_mobility .widget a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+#smart_mobility .city {
+  background-image: url('../img/city.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 /* SEZIONE FOOTER */
 #site_footer {
