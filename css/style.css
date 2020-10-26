@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+/* UTILITY */
+.mr_20 {
+  margin-right: 20px;
+}
+
+/* SEZIONE HEADER */
+
+header {
+  position: relative;
+  height: 500px;
+  background-image: url('../img/banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+nav a {
+  color: white;
+  padding: 0 10px;
+}
+
+nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.list_inline li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_menu, .header_langs {
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header_langs li:not(:last-child) a {
+  border-right: 1px solid white;
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero_text h1 {
+  font-size: 2.5em;
+}
+
+.hero_text p {
+  margin: 20px 0 30px 0;
+}
+
+.hero_text img {
+  width: 150px;
+}
