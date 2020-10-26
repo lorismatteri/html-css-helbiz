@@ -8,7 +8,6 @@ body {
 }
 
 /* SEZIONE HEADER */
-
 header {
   position: relative;
   height: 500px;
@@ -16,6 +15,19 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.overlay {
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
 }
 
 nav a {
@@ -42,7 +54,7 @@ a {
 }
 
 .header_menu, .header_langs {
-  font-size: 0.55rem;
+  font-size: 0.65rem;
   font-weight: bold;
   text-transform: uppercase;
 }
