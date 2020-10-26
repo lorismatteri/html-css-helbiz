@@ -235,6 +235,32 @@ a {
   background-position: center;
 }
 
+#testimonials {
+  position: relative;
+  background-image: url('../img/testimonials.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px 0;
+}
+
+#testimonials .family {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 50px;
+}
+
+#testimonials .family h4 {
+  font-size: 2.75em;
+  padding-bottom: 15px;
+}
+
+#testimonials li {
+  font-size: 3em;
+}
+
 /* SEZIONE FOOTER */
 #site_footer {
   background: black;
